@@ -6,12 +6,18 @@ function greetings(name) {
 greetings("Ion");
 greetings("Maria");
 
+const prenume = (name) => `Prenumele tau este ${name}`;
+console.log(prenume("Viorel"));
+
 //Exercițiul 2: Adunare de două numere
 
 function sum(a, b) {
   return `Suma celor doua numere este: ${a + b}!`;
 }
 console.log(sum(3, 5));
+
+const sumaNr = (a, b) => `Suma numerelor este ${a + b}! `;
+console.log(sumaNr(100, 15));
 
 //Exercițiul 3: Verificare număr par
 
